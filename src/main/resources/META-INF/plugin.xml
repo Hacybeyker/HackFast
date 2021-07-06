@@ -1,0 +1,36 @@
+<idea-plugin>
+    <id>org.hacybeyker.HackFast</id>
+    <name>HackFast</name>
+    <vendor email="hacybeykert@gmail.com" url="https://www.linkedin.com/in/carlosalfredoosorioperez/">Hacybeyker</vendor>
+
+    <description>
+        Dimens: generates the dimension file, with values in dp and sp depending on the number entered in the input.
+        LayoutBounds: Detects the connected device and enables or disables layout borders.
+    </description>
+
+    <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+         on how to target different products -->
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.android</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <actions>
+        <action id="DimensAction"
+                class="action.dimens.DimensAction"
+                text="Generate Dimens"
+                description="Generate dimens">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl D"/>
+        </action>
+        <action id="LayoutBoundsAction"
+                class="action.bounds.LayoutBoundsAction"
+                text="Show Layout Bounds"
+                description="Show layout bounds">
+            <add-to-group group-id="ToolsMenu" anchor="last"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl L"/>
+        </action>
+    </actions>
+</idea-plugin>

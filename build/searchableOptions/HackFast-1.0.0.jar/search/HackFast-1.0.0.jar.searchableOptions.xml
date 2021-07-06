@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<options>
+  <configurable id="preferences.keymap" configurable_name="Keymap">
+    <option name="dimens" path="ActionManager" hit="Generate Dimens" />
+    <option name="generate" path="ActionManager" hit="Generate Dimens" />
+    <option name="dimens" path="ActionManager" hit="Generate dimens" />
+    <option name="generate" path="ActionManager" hit="Generate dimens" />
+    <option name="bounds" path="ActionManager" hit="Show Layout Bounds" />
+    <option name="layout" path="ActionManager" hit="Show Layout Bounds" />
+    <option name="show" path="ActionManager" hit="Show Layout Bounds" />
+    <option name="bounds" path="ActionManager" hit="Show layout bounds" />
+    <option name="layout" path="ActionManager" hit="Show layout bounds" />
+    <option name="show" path="ActionManager" hit="Show layout bounds" />
+  </configurable>
+</options>
+
