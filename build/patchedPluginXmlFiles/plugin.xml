@@ -1,5 +1,5 @@
 <idea-plugin>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <change-notes>
     &lt;b&gt;1.0.0&lt;/b&gt;&lt;br&gt;
     &lt;li&gt;Add dimens action&lt;/li&gt;
@@ -11,7 +11,15 @@
   <vendor email="hacybeykert@gmail.com" url="https://www.linkedin.com/in/carlosalfredoosorioperez/">Hacybeyker</vendor>
   <description>
         Dimens: generates the dimension file, with values in dp and sp depending on the number entered in the input.
+        1. Go to Tools -&gt; Generate Dimens
+        2. Insert a number and press OK
+        3. Check the dimension.xml file in your resources
+        4. Enjoy!
         LayoutBounds: Detects the connected device and enables or disables layout borders.
+        1. Connect any mobile device, emulator or physical
+        2. Go to Tools -&gt; Show Layout Bounds
+        3. Check the device and you will see that the bounds layout is activated
+        4. Enjoy!
     </description>
   <depends>com.intellij.modules.platform</depends>
   <depends>org.jetbrains.android</depends>

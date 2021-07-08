@@ -5,7 +5,15 @@
 
     <description>
         Dimens: generates the dimension file, with values in dp and sp depending on the number entered in the input.
+        1. Go to Tools -> Generate Dimens
+        2. Insert a number and press OK
+        3. Check the dimension.xml file in your resources
+        4. Enjoy!
         LayoutBounds: Detects the connected device and enables or disables layout borders.
+        1. Connect any mobile device, emulator or physical
+        2. Go to Tools -> Show Layout Bounds
+        3. Check the device and you will see that the bounds layout is activated
+        4. Enjoy!
     </description>
 
     <!-- please see https://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
